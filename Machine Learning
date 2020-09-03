@@ -1,1 +1,6 @@
-
+Machine Learning 机器学习
+Y：target variable；X:feature;Hyperparametere:超参数是由研究员设定的参数
+Type of Machine Learning：1.supervised learning；2.unsupervised learning；3.Neural networks，deep learning，reinforcement learning
+supervised learning：labeled data（有标签的数据）有监督的机器学习分为：regression（连续性数据） and classification（离散型数据）
+Unsupervised learning： not given labeled data（没有标签的数据）发现数据结构，无监督的机器学习分为：Dimension reduction（降维）：减少特征的数量降低模型复杂度；Cluster（聚类）：对变量进行分组
+Neutral network，Deep learning，reinforcement learning：能够处理非线性模型
