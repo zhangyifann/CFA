@@ -28,6 +28,11 @@ K-means clustering:首先指定K个点，然后根据距离每个点的最小距
 缺点在于需要提前确定超参数K值，另外分组和最开始选点有很大关系，可以多次选点进行分组，然后选择最合适的分组情况，还有就是K值很难确定，可以对一个区间的K值都进行测试选取合适的K值
 
 Neutral Networks
-
-    
-
+输入层，隐藏层，输出层
+Deep learning Nets：隐藏层至少有3-20层
+reinforcement learning：maximize its rewards，neither direct labeled data nor instance feedback
+Big Data：volume，variety，velocity
+1.明确问题概念化模型任务；2.数据收集；3.数据准备和预处理；4.数据探索；5.模型训练
+数据规模标准化：Normalization，样本值减去最小值除以（最大值和最小值之差） Standardization：样本数据标准化
+feature selection（FS）减少特征减低复杂度，feature engineering（FE）增加特征提高复杂度
+模型表现评估：precision（P）=TP/(TP+FP） recall（R）=TP/(TP+FN) Accuracy = (TP+FN)/(TP+FP+TN+FN) F1 score = (2*P*R)/(P+R)
