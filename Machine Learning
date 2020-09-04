@@ -20,6 +20,14 @@ Ensemble learning：多个模型组合预测，两种方法：1.相同数据不�
 random forest：使用bagging method 对大量的决策树进行训练，然后采用majority-vote方法，提高准确性减低噪音和过度拟合，但是不足在于没办法对每个树进行观察，形成了黑箱的效果。
 
 Unsupervised learning：无监督的机器学习
+Dimension Reduction：principal components analysis（PCA）
+Clustering：K-means cluster（k分聚类），hierarchical cluster（自下而上，自上而下的聚类）
+PCA：composite variable，通过构建组合主要的，不相关的组合变量，减少特征个数减低模型复杂度，composite variable，eigenvector，eigenvalue，根据特征值大小对特征向量进行排序，逐个添加特征向量，知道组合特征能够满足对整体变化的解释。drawback：组合变量没有初始变量的直接含义解释，类似于黑盒结构。
+Cluster：将相似的目标分到同一组，不同组的间隔越大越好，欧几里得距离，距离越小越相似。K-means cluster，Hierarchical clustering：Agglomerative clustering（bottom-up），divisive clustering（up-down）
+K-means clustering:首先指定K个点，然后根据距离每个点的最小距离对目标进行分组，分组之后计算每个组的中心点，然后利用中心点重新对目标进行分类，然后不断循环，知道中心点不再变动
+缺点在于需要提前确定超参数K值，另外分组和最开始选点有很大关系，可以多次选点进行分组，然后选择最合适的分组情况，还有就是K值很难确定，可以对一个区间的K值都进行测试选取合适的K值
+
+Neutral Networks
 
     
 
