@@ -27,6 +27,7 @@ Covariance-Stationary Series：协方差平稳
 随机游走模型：没有均值回复水平，方差无限大
 单位根：滞后项系数为1，检验方法：DF检验（Dickey Fullerton检验）等式两边同时减去滞后项，然后进行回归，这是可以检验自变量系数是否为0来判断是否存在单位根
 单位根修正方法：一阶差分
+单位跟，协方差平稳，与协整：If the (Engle–Granger) Dickey–Fuller test rejects the null hypothesis that the error term has a unit root (as Charlent’s test did), then the conclusion is that the error term in the regression is covariance stationary. Therefore, the two time series are cointegrated. 
 
 Autoregressive conditional hteroskedasticity(ARCH)自回归条件异方差，对残差项的方差进行自回归，然后对系数进行假设检验，如果显著不为0存在条件异方差
 ARCH修正方法：GLS
